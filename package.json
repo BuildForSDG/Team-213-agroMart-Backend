@@ -1,0 +1,29 @@
+{
+  "name": "agromart",
+  "version": "1.0.0",
+  "description": "agroMart is a web application that seeks to give farmer access to bigger markets. Farmer can sell their produce on the app and consumers can also buys food stuffs from the platform. This application is build for the BUILDFORSDGs challenge by andela and facebook.",
+  "main": "server.js",
+  "scripts": {
+    "test": "yarn test",
+    "start": "nodemon --watch backend --exec babel-node backend/server.js "
+  },
+  "keywords": [
+    "agro",
+    "market",
+    "agromart",
+    "buy",
+    "foodstuffs",
+    "sell",
+    "farmer",
+    "agritech"
+  ],
+  "author": "Sintim-Misah Duah Godfred (TTL for team 213)",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
